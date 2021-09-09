@@ -4,7 +4,7 @@ import logo from '../assets/logo.png';
 
 const Footer = () => {
     return (
-        <footer className="text-gray-600 body-font absolute w-full bottom-0 bg-gray-900">
+        <footer className="absolute w-full bottom-0 bg-gray-900">
             <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
                 <div className="flex title-font font-medium items-center md:justify-start justify-center text-white">
                     <img src={logo} alt="" className='h-10 object-cover' />
