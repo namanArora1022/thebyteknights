@@ -9,7 +9,7 @@ import Testimonial from '../components/Home/Testimonial';
 
 const Home = () => {
     return (
-        <div>
+        <>
             {/* Landing */}
             <main className='h-screen bg-home-landing bg-no-repeat bg-cover sm:bg-center text-white flex justify-center items-center flex-col pt-32'>
                 <h1 className="font-Rancho text-8xl text-center md:text-9xl">The Byte Knights</h1>
@@ -25,7 +25,7 @@ const Home = () => {
                 </div>
             </section>
             {/* Testimonials */}
-            <section className='flex justify-center items-center flex-col py-20 md:px-36 bg-white'>
+            <section className='flex justify-center items-center flex-col py-20 pb-52 md:px-36 bg-white'>
                 <h2 className='text-4xl Pink-border mb-8'>Testimonials</h2>
                 <div className='flex flex-wrap justify-center items-center'>
                     {testimonials.map(testimonial => (
@@ -33,7 +33,7 @@ const Home = () => {
                     ))}
                 </div>
             </section>
-        </div>
+        </>
     )
 }
 

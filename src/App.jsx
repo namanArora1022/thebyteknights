@@ -6,16 +6,20 @@ import Home from './pages/Home';
 
 // Components
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 const App = () => {
     return (
         <Router>
-            <Navbar />
-            <Switch>
-                <Route exact path='/'>
-                    <Home />
-                </Route>
-            </Switch>
+            <div className='min-h-screen'>
+                <Navbar />
+                <Switch>
+                    <Route exact path='/'>
+                        <Home />
+                    </Route>
+                </Switch>
+                <Footer />
+            </div>
         </Router>
     )
 }
