@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Pink-border{
+    @apply border-b-4 border-Pink pb-2;
+}
