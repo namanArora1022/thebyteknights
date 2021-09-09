@@ -7,3 +7,7 @@
 .Pink-border{
     @apply border-b-4 border-Pink pb-2;
 }
+
+*::selection{
+    @apply bg-Pink text-white;
+}
