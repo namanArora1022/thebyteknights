@@ -36,3 +36,24 @@ export const features = [
         description: 'Graphic Designing helps students to use their creative minds to devlop the various user interfaces and user experiences(UI/UX)'
     },
 ];
+
+export const testimonials = [
+    {
+        id: 1,
+        text: 'I, Himanshi Miglani, a student of grade 11-D had participated in the Social Debate organized by the Byte Knights Club. I spoke against the ban of social media. This competition taught me team work skills and helped me imrove my speaking skills. In all, it was a good experience.',
+        name: 'Himanshi Miglani',
+        standard: '11-D'
+    },
+    {
+        id: 2,
+        text: 'I, Lakshya Sharma, a student of grade 11-C had participated in the Social Debate organized by the Byte Knights Club. I spoke against the ban of social media. This competition helped me imrove my speaking skills and helped me increase my confidence in public speaking. In all, it was a good experience.',
+        name: 'Lakshya Sharma',
+        standard: '11-C'
+    },
+    {
+        id: 3,
+        text: 'Hello!‌Rohan Raj from class XI-D this side. I recently participated in a social debate organised by Byte knights club and spoke against the the topic of "social media ban". The competition over-all was enjoyable, memorable and also taught me alot new things regarding teamwork. Moreover, it was a great experience for me.',
+        name: '‌Rohan Raj',
+        standard: '11-D'
+    }
+]
