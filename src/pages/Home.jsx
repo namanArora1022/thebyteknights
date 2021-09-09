@@ -16,8 +16,8 @@ const Home = () => {
                 <h2 className="font-Rancho text-5xl text-center md:text-7xl mb-10">To Live to Learn</h2>
             </main>
             {/* What we do */}
-            <section className='flex justify-center items-center flex-col py-20 md:px-36 px-20 bg-gray-100'>
-                <h2 className='text-4xl Pink-border mb-8'>What we do</h2>
+            <section className='flex justify-center items-center flex-col py-20 bg-gray-100'>
+                <h2 className='text-4xl Pink-border mb-8'>&lt;What we do/&gt;</h2>
                 <div className='flex flex-wrap justify-center items-center'>
                     {features.map(feature => (
                         <Feature key={feature.id} feature={feature}/>
@@ -25,8 +25,8 @@ const Home = () => {
                 </div>
             </section>
             {/* Testimonials */}
-            <section className='flex justify-center items-center flex-col py-20 md:px-36'>
-                <h2 className='text-4xl Pink-border mb-8'>Testimonials</h2>
+            <section className='flex justify-center items-center flex-col py-20'>
+                <h2 className='text-4xl Pink-border mb-8'>&lt;Testimonials/&gt;</h2>
                 <div className='flex flex-wrap justify-center items-center'>
                     {testimonials.map(testimonial => (
                         <Testimonial key={testimonial.id} testimonial={testimonial}/>
