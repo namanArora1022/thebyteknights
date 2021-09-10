@@ -2,7 +2,7 @@ import React from 'react';
 
 const Feature = ({ feature }) => {
     return (
-        <div className='flex flex-col justify-center items-center my-6 mx-10'>
+        <div className='flex flex-col justify-center items-center my-6 mx-10 md:px-10'>
             <img
                 className='object-cover h-16 p-2 rounded-lg bg-Pink'
                 src={feature.img}
