@@ -3,7 +3,8 @@ module.exports = {
 	darkMode: false, // or 'media' or 'class'
 	theme: {
 		fontFamily: {
-			'Rancho': ['Rancho']
+			'Rancho': ['Rancho'],
+			'OpenSans': ['Open Sans'],
 		},
 		extend: {
 			backgroundImage: theme => ({
