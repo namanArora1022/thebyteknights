@@ -6,12 +6,14 @@ import { features, testimonials } from '../data/home';
 // Components
 import Feature from '../components/Home/Feature';
 import Testimonial from '../components/Home/Testimonial';
+import Particles from '../components/Home/Particles';
 
 const Home = () => {
     return (
         <div className='pb-52'>
             {/* Landing */}
             <main className='h-screen bg-home-landing bg-no-repeat bg-cover sm:bg-center text-white flex justify-center items-center flex-col pt-32'>
+                <Particles/>
                 <h1 className="font-Rancho text-8xl text-center md:text-9xl">The Byte Knights</h1>
                 <h2 className="font-Rancho text-5xl text-center md:text-7xl mb-10">To Live to Learn</h2>
             </main>
