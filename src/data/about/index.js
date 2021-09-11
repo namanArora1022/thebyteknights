@@ -53,26 +53,31 @@ export const members = [
 
 export const years = [
     {
+        id: 1,
         year: '2017-18',
         President: 'Devansh Srivastav',
         Vice_President: 'Jaydeep',
     },
     {
+        id: 2,
         year: '2018-19',
         President: 'Priyansh Bahuguna',
         Vice_President: 'Shivansh Grover',
     },
     {
+        id: 3,
         year: '2019-20',
         President: 'Siddharth Pal',
         Vice_President: 'Sarthak Kumar',
     },
     {
+        id: 4,
         year: '2020-21',
         President: 'Lakshit Bakshi',
         Vice_President: 'Khushi Setia',
     },
     {
+        id: 5,
         year: '2021-22',
         President: 'Naman Arora',
         Vice_President: 'Kashvi Arora',

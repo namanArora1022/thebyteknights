@@ -29,8 +29,8 @@ const About = () => {
             <section className='pt-10 flex flex-col justify-center items-center md:pb-44'>
                 <h2 className="text-3xl Pink-border mb-6 inline-block">&lt;Past Leaders /&gt;</h2>
                 <div className='flex flex-wrap justify-center items-center py-5'>
-                    {years.reverse().map(year => (
-                        <PastLeader year={year}/>
+                    {years.map(year => (
+                        <PastLeader year={year} key={year.id}/>
                     ))}
                 </div>
             </section>
