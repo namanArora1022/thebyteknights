@@ -1,7 +1,9 @@
 import React from 'react';
-import Member from '../components/About/Member';
 
-import { members } from '../data/about';
+import Member from '../components/About/Member';
+import PastLeader from '../components/About/PastLeader';
+
+import { members, years } from '../data/about';
 
 const About = () => {
     return (
@@ -14,12 +16,21 @@ const About = () => {
                 <p>To participate and succeed in intra and inter school events Extend full support in all projects Impart training to others Share to learn Raise the bars in IT skills. Organise competitions on National and Global Levels. Trips to offices of Multinational Companies like Google and Microsoft. Regular workshops are also conducted by expertise resource person on various emerging IT skills like animation, digital photography, video editing, movie making, programming, web design and developing, network security and much more. The Club also has a youtube channel by its name where the members showcase their talents.</p>
             </main>
             {/* Our Team */}
-            <section className='pt-10 flex flex-col justify-center items-center md:pb-44'>
-                <h2 className="text-3xl Pink-border mb-6 inline-block">{'<Our Team/>'}</h2>
+            <section className='pt-10 flex flex-col justify-center items-center'>
+                <h2 className="text-3xl Pink-border mb-6 inline-block">&lt;Our Team /&gt;</h2>
                 <p className='text-sm text-center my-2 px-2 md:w-96'>A team of designers, developers, gamers, quizzers, photographers, filmmakers. This is "The Byte Knights". We Make things.</p>
                 <div className='flex flex-wrap justify-center items-center py-5'>
                     {members.map(member => (
-                        <Member member={member} key={member.id}/>
+                        <Member member={member} key={member.id} />
+                    ))}
+                </div>
+            </section>
+            {/* Past Leaders */}
+            <section className='pt-10 flex flex-col justify-center items-center md:pb-44'>
+                <h2 className="text-3xl Pink-border mb-6 inline-block">&lt;Past Leaders /&gt;</h2>
+                <div className='flex flex-wrap justify-center items-center py-5'>
+                    {years.reverse().map(year => (
+                        <PastLeader year={year}/>
                     ))}
                 </div>
             </section>
