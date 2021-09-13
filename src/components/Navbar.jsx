@@ -34,7 +34,7 @@ const Navbar = () => {
     ]
 
     return (
-        <header className={`absolute t-0 left-0 p-4 flex items-center justify-between h-20 w-full ${location.pathname !== '/' ? 'bg-gray-900' : 'bg-transparent'}`}>
+        <header className={`absolute t-0 left-0 p-4 flex items-center justify-between h-20 w-full z-50 ${location.pathname !== '/' ? 'bg-gray-900' : 'bg-transparent'}`}>
             {/* logo */}
             <Link to='/'>
                 <img src={Logo} alt="The Byte Knights" className='w-16 object-cover' />
