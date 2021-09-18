@@ -12,3 +12,7 @@
 *::selection{
     @apply bg-Pink text-white;
 }
+
+html {
+    scroll-behavior: smooth;
+}

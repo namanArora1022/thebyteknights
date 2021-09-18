@@ -4,7 +4,7 @@ module.exports = {
 	theme: {
 		fontFamily: {
 			'Rancho': ['Rancho'],
-			'OpenSans': ['Open Sans'],
+			'Open-Sans': ['Open Sans'],
 		},
 		extend: {
 			backgroundImage: theme => ({

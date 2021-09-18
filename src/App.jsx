@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from './pages/Home';
 import About from './pages/About';
 import Events from './pages/Events';
+import EventDetails from './pages/EventDetails';
 
 // Components
 import Navbar from './components/Navbar';
@@ -16,15 +17,10 @@ const App = () => {
             <div className='min-h-screen'>
                 <Navbar />
                 <Switch>
-                    <Route exact path='/'>
-                        <Home />
-                    </Route>
-                    <Route exact path='/about'>
-                        <About />
-                    </Route>
-                    <Route exact path='/events'>
-                        <Events />
-                    </Route>
+                    <Route exact path='/' component={Home} />
+                    <Route exact path='/about' component={About} />
+                    <Route exact path='/events' component={Events} />
+                    <Route path='/events/:id' component={EventDetails} />
                 </Switch>
                 <Footer />
             </div>
