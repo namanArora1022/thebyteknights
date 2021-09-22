@@ -6,12 +6,16 @@ module.exports = {
 			'Rancho': ['Rancho'],
 			'Open-Sans': ['Open Sans'],
 		},
+		fontSize: {
+			'7xl': '4rem'
+		},
 		extend: {
 			backgroundImage: theme => ({
 				'home-landing': "url('/src/assets/home/landing.jpg')"
 			}),
 			colors: {
-				'Pink' : '#ff0054'
+				'Pink' : '#ff0054',
+				'Black' : '#3F3D56'
 			}
 		},
 	},
