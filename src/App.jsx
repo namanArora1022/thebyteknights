@@ -8,6 +8,7 @@ import About from './pages/About';
 import Events from './pages/Events';
 import EventDetails from './pages/EventDetails';
 import Contact from './pages/Contact';
+import NotFound from './pages/NotFound';
 
 // Components
 import Navbar from './components/Navbar';
@@ -32,6 +33,7 @@ const App = () => {
                     <Route exact path='/events' component={Events} />
                     <Route path='/events/:id' component={EventDetails} />
                     <Route exact path='/contact' component={Contact} />
+                    <Route path='*' component={NotFound} />
                 </Switch>
                 <Footer />
             </div>
