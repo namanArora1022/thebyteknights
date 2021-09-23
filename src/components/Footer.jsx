@@ -17,7 +17,8 @@ const Footer = () => {
                     <img src={logo} alt="" className='h-10 object-cover' />
                     <span className="ml-3 text-2xl font-Rancho">The Byte Knights</span>
                 </div>
-                <p className="text-sm text-white sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2021 The Byte Knights
+                <p className="text-sm text-white sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
+                    © {new Date().getFullYear()} The Byte Knights
                 </p>
                 <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
                     {/* facebook */}
