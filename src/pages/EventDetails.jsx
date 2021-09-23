@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-scroll";
 
 // Images
 import ChattingSvg from '../assets/chatting.svg';
@@ -20,7 +21,7 @@ const EventDetails = ({ match }) => {
                     <p className='my-5 md:my-7'>{event.description}</p>
                     <div className=''>
                         <a className='px-6 py-3 my-2 bg-Pink text-white cursor-pointer text-center mr-2' href={event.formLink} target="_blank" rel="noreferrer">Paricipate</a>
-                        <a className='px-6 py-3 my-2 bg-Pink text-white cursor-pointer text-center' href="#contact">Contact for any qureies</a>
+                        <Link className='px-6 py-3 my-2 bg-Pink text-white cursor-pointer text-center' to="contact">Contact for any qureies</Link>
                     </div>
                 </div>
             </main>
@@ -28,15 +29,14 @@ const EventDetails = ({ match }) => {
             <section className='bg-gray-100 py-20 px-4 md:px-20'>
                 <h2 className='text-xl mb-4'>Competition Guidelines</h2>
                 {event.guidelines.map((guideline , index) => (
-                    <p className='my-2 md:my-1'>
+                    <p className='my-2 md:my-1' key={index}>
                         {index+1}
-                        <span class='mr-2'>.)</span>
+                        <span className='mr-2'>.)</span>
                         {guideline}
                     </p>
                 ))}
             </section>
-            <section className='py-20 px-4 md:px-20 flex flex-col md:flex-row justify-center items-center'>
-                <a name="contact"></a>
+            <section className='py-20 px-4 md:px-20 flex flex-col md:flex-row justify-center items-center' id="contact">
                 <div>
                     <h2 className='text-xl text-center md:text-left md:text-3xl'>
                         Join us on Discord
