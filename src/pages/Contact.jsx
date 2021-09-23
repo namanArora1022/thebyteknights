@@ -1,6 +1,8 @@
 import React from 'react';
 
-import ContactSvg from '../assets/contact/contact.svg'
+// Images
+import ContactSvg from '../assets/contact/contact.svg';
+
 // Svgs
 import { ReactComponent as FbIcon } from '../assets/contact/FbIcon.svg';
 import { ReactComponent as InstaIcon } from '../assets/contact/InstaIcon.svg';

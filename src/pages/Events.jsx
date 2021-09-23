@@ -1,6 +1,9 @@
 import React from 'react';
+
+// Components
 import Event from '../components/Events/Event';
 
+// Data
 import { activeEvents } from '../data/events';
 
 const Events = () => {
