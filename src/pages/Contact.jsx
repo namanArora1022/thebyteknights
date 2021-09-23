@@ -12,8 +12,8 @@ const Contact = () => {
     return (
         <div className='pt-20 pb-24 grid md:grid-cols-2 grid-cols-1'>
             {/* left */}
-            <div className='bg-gray-100 pt-28 pl-10 flex flex-col'>
-                <h1 className='text-6xl mb-2'>Want to talk to us ?</h1>
+            <div className='bg-gray-100 pt-28 md:pl-10 px-4 flex flex-col'>
+                <h1 className='text-6xl md:text-7xl mb-2'>Want to talk to us ?</h1>
                 <span className='font-semibold text-2xl'>
                     <span className='text-Pink'>thebyteknights</span>
                     @gmail.com

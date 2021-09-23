@@ -8,49 +8,66 @@ import ChattingSvg from '../assets/chatting.svg';
 import { activeEvents } from '../data/events';
 
 const EventDetails = ({ match }) => {
+
     const id = match.params.id;
     const event = activeEvents[id - 1];
 
     return (
-        <div className='pt-20 pb-36'>
-            {/* Landing */}
-            <main className='py-10 flex flex-col md:flex-row justify-center items-center px-4 md:px-20'>
-                <img src={event.img} alt={event.title} className='h-80 object-cover md:mr-36' />
-                <div className='mt-5'>
-                    <h1 className='inline-block Pink-border text-2xl font-semibold'>{event.title}</h1>
-                    <p className='my-5 md:my-7'>{event.description}</p>
-                    <div className=''>
-                        <a className='px-6 py-3 my-2 bg-Pink text-white cursor-pointer text-center mr-2' href={event.formLink} target="_blank" rel="noreferrer">Paricipate</a>
-                        <Link className='px-6 py-3 my-2 bg-Pink text-white cursor-pointer text-center' to="contact">Contact for any qureies</Link>
+        <div className='pt-20 pb-48 md:pb-32'>
+            <div className='py-10 flex flex-col justify-center items-center'>
+                {/* Landing */}
+                <main className='flex flex-col md:flex-row w-full px-6'>
+                    <img src={event.img} alt={event.title} className='object-cover md:w-2/5 md:mr-16 mb-5 md:mb-0' />
+                    <div>
+                        <h1 className='text-4xl Pink-border inline-block'>{event.title}</h1>
+                        <p className='my-5 md:my-7'>{event.description}</p>
+                        <div className='flex flex-col xs:flex-row text-center'>
+                            <a
+                                className='py-2 px-4 bg-Pink text-white xs:mr-3 mb-3 xs:mb-0 xs:flex xs:justify-center xs:items-center'
+                                href={event.formLink}
+                                target="_blank"
+                                rel="noreferrer"
+                            >Paricipate</a>
+                            <Link
+                                to="contact"
+                                className='py-2 px-4 bg-Pink text-white xs:flex xs:justify-center xs:items-center'
+                            >Contact for any qureies</Link>
+                        </div>
                     </div>
-                </div>
-            </main>
-            {/* Competition Guidelines */}
-            <section className='bg-gray-100 py-20 px-4 md:px-20'>
-                <h2 className='text-xl mb-4'>Competition Guidelines</h2>
-                {event.guidelines.map((guideline , index) => (
-                    <p className='my-2 md:my-1' key={index}>
-                        {index+1}
-                        <span className='mr-2'>.)</span>
-                        {guideline}
-                    </p>
-                ))}
-            </section>
-            <section className='py-20 px-4 md:px-20 flex flex-col md:flex-row justify-center items-center' id="contact">
-                <div>
-                    <h2 className='text-xl text-center md:text-left md:text-3xl'>
-                        Join us on Discord
-                    </h2>
-                    <p className='bg-red-100 text-center my-3 text-sm md:text-left w-2/5 md:text-md md:my-5'>
-                        <span className='mb-4 inline-block'>
-                            Common join us on discord , we will clear all of your queries regarding the events you are participating in.
-                        </span>
-                        All the best 👍🏻
-                    </p>
-                    <button className='mt-3 bg-Pink text-white py-2 px-7 cursor-pointer'>Join Us</button>
-                </div>
-                <img src={ChattingSvg} className='object-cover h-48 inline mt-7 md:h-64' alt='Join Us' />
-            </section>
+                </main>
+                {/* Competition Guidelines */}
+                <section className='bg-gray-100 w-full px-4 py-4 mt-8 md:px-6'>
+                    <h2 className='text-xl mb-4 Pink-border border-b-2 inline-block'>Competition Guidelines</h2>
+                    {event.guidelines.map((guideline, index) => (
+                        <p className='my-2 md:my-1 md:text-sm' key={index}>
+                            {index + 1}
+                            <span className='mr-2'>.)</span>
+                            {guideline}
+                        </p>
+                    ))}
+                </section>
+                {/* Contact for any qureies */}
+                <section className='py-4 pt-10 px-4 flex flex-col md:flex-row justify-center items-center w-full md:px-6' id="contact">
+                    {/* left */}
+                    <div className='flex flex-col justify-evenly md:justify-start md:items-start items-center md:mr-52'>
+                        <h2 className='text-xl mb-4 Pink-border border-b-2'>Join us on Discord</h2>
+                        <p className='flex flex-col justify-center items-center text-center md:text-left md:justify-start md:items-start md:w-72'>
+                            <span className='mb-4 inline-block'>
+                                Common join us on discord , we will clear all of your queries regarding the events you are participating in.
+                            </span>
+                            All the best 👍🏻
+                        </p>
+                        <a
+                            className='mt-3 bg-Pink text-white py-2 px-7 cursor-pointer'
+                            href={event.discordLink}
+                            target="_blank"
+                            rel="noreferrer"
+                        >Join Us</a>
+                    </div>
+                    {/* right */}
+                    <img src={ChattingSvg} className='object-cover h-48 inline mt-7 md:h-64' alt='Join Us' />
+                </section>
+            </div>
         </div>
     )
 }

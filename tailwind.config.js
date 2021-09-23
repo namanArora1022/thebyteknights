@@ -10,9 +10,15 @@ module.exports = {
 			backgroundImage: theme => ({
 				'home-landing': "url('/src/assets/home/landing.jpg')"
 			}),
+			screens: {
+				'xs': '350px'
+			},
+			fontSize:{
+				'7xl': '4rem'
+			},
 			colors: {
-				'Pink' : '#ff0054',
-				'Black' : '#3F3D56'
+				'Pink': '#ff0054',
+				'Black': '#3F3D56'
 			}
 		},
 	},

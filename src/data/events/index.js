@@ -24,5 +24,6 @@ export const activeEvents = [
             'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias doloribus natus sapiente veniam culpa. Veritatis, distinctio.',
         ],
         formLink: 'https://forms.gle/963Qt8gYgsrZPQbE9',
+        discordLink: 'https://discord.gg/f6vUxUKphU'
     }    
 ];
