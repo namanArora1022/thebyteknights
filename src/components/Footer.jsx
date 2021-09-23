@@ -1,6 +1,9 @@
 import React from 'react';
 
+// Images
 import logo from '../assets/logo.png';
+
+// Svgs
 import { ReactComponent as FbIcon } from '../assets/social-media-icons/fb.svg';
 import { ReactComponent as InstaIcon } from '../assets/social-media-icons/insta.svg';
 import { ReactComponent as YtIcon } from '../assets/social-media-icons/yt.svg';

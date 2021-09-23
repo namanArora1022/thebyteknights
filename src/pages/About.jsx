@@ -1,8 +1,10 @@
 import React from 'react';
 
+// Components
 import Member from '../components/About/Member';
 import PastLeader from '../components/About/PastLeader';
 
+// Data
 import { members, years } from '../data/about';
 
 const About = () => {

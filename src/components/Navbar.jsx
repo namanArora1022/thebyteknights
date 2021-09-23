@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { useLocation } from "react-router-dom";
 import { Link } from 'react-router-dom';
 
+// Images
 import Logo from '../assets/logo.png';
 
 const Navbar = () => {

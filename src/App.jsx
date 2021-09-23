@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Events from './pages/Events';
 import EventDetails from './pages/EventDetails';
+import Contact from './pages/Contact';
 
 // Components
 import Navbar from './components/Navbar';
@@ -21,6 +22,7 @@ const App = () => {
                     <Route exact path='/about' component={About} />
                     <Route exact path='/events' component={Events} />
                     <Route path='/events/:id' component={EventDetails} />
+                    <Route exact path='/contact' component={Contact} />
                 </Switch>
                 <Footer />
             </div>

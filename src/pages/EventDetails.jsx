@@ -1,7 +1,10 @@
 import React from 'react';
-import { activeEvents } from '../data/events';
 
+// Images
 import ChattingSvg from '../assets/chatting.svg';
+
+// Data
+import { activeEvents } from '../data/events';
 
 const EventDetails = ({ match }) => {
     const id = match.params.id;

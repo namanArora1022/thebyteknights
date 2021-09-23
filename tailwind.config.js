@@ -11,7 +11,8 @@ module.exports = {
 				'home-landing': "url('/src/assets/home/landing.jpg')"
 			}),
 			colors: {
-				'Pink' : '#ff0054'
+				'Pink' : '#ff0054',
+				'Black' : '#3F3D56'
 			}
 		},
 	},
