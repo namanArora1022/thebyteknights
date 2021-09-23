@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import AnimatedCursor from "react-animated-cursor";
 
 // Pages
 import Home from './pages/Home';
@@ -16,6 +17,14 @@ const App = () => {
     return (
         <Router>
             <div className='min-h-screen'>
+                <AnimatedCursor
+                    innerSize={10}
+                    outerSize={8}
+                    color='255, 0, 84'
+                    outerAlpha={0.2}
+                    innerScale={0.7}
+                    outerScale={5}
+                />
                 <Navbar />
                 <Switch>
                     <Route exact path='/' component={Home} />
