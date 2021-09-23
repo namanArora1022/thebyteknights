@@ -11,6 +11,12 @@ const Navbar = () => {
 
     const [open, setOpen] = useState(false);
 
+    const resultLink = {
+        name: 'Results',
+        link: '#', // add a google drive link here
+        available: false
+    }
+
     const routes = [
         {
             name: 'Home',
@@ -23,10 +29,6 @@ const Navbar = () => {
         {
             name: 'Events',
             path: '/events'
-        },
-        {
-            name: 'Results',
-            path: '/results'
         },
         {
             name: 'Contact Us',
@@ -49,6 +51,12 @@ const Navbar = () => {
                         key={route.path}
                     >{route.name}</Link>
                 ))}
+                {resultLink.available &&
+                    <a
+                        className='text-sm mx-2'
+                        href={resultLink.link}
+                    >{resultLink.name}</a>
+                }
             </nav>
             {/* hambuger */}
             <div onClick={() => setOpen(!open)} className='md:hidden cursor-pointer transition-all duration-700'>
@@ -73,6 +81,13 @@ const Navbar = () => {
                         onClick={() => setOpen(!open)}
                     >{route.name}</Link>
                 ))}
+                {resultLink.available &&
+                    <a
+                        className='text-xl my-3 hover:text-Pink transition-all duration-200'
+                        href={resultLink.link}
+                        onClick={() => setOpen(!open)}
+                    >{resultLink.name}</a>
+                }
             </nav>
         </header>
     )
