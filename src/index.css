@@ -16,3 +16,23 @@
 html {
     scroll-behavior: smooth;
 }
+
+/* Scroll bar */
+
+body::-webkit-scrollbar {
+    background-color: #ff0054;
+    width: 15px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #fad390;
+    width: 10px;
+    border-radius: 3px;
+}
+
+/* Footer */
+
+/* footer#footer #contactInfo div div img{
+    height: 15px;
+    width: 15px;
+} */

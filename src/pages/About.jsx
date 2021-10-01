@@ -9,7 +9,7 @@ import { members, years } from '../data/about';
 
 const About = () => {
     return (
-        <div className='pt-20 pb-52 md:pb-0'>
+        <div className='pt-20'>
             {/* Landing */}
             <main className='p-10'>
                 <h1 className='text-4xl mb-6 Pink-border inline-block'>&lt;About us/&gt;</h1>
@@ -28,7 +28,7 @@ const About = () => {
                 </div>
             </section>
             {/* Past Leaders */}
-            <section className='pt-10 flex flex-col justify-center items-center md:pb-44'>
+            <section className='py-10 flex flex-col justify-center items-center'>
                 <h2 className="text-3xl Pink-border mb-6 inline-block">&lt;Past Leaders /&gt;</h2>
                 <div className='flex flex-wrap justify-center items-center py-5'>
                     {years.map(year => (
