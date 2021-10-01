@@ -10,7 +10,7 @@ import Particles from '../components/Home/Particles';
 
 const Home = () => {
     return (
-        <div className='pb-52'>
+        <div>
             {/* Landing */}
             <main className='h-screen bg-home-landing bg-no-repeat bg-cover sm:bg-center text-white flex justify-center items-center flex-col pt-32'>
                 <Particles/>

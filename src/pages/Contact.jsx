@@ -10,7 +10,7 @@ import { ReactComponent as YtIcon } from '../assets/contact/YtIcon.svg';
 
 const Contact = () => {
     return (
-        <div className='pt-20 pb-24 grid md:grid-cols-2 grid-cols-1'>
+        <div className='pt-20 grid md:grid-cols-2 grid-cols-1'>
             {/* left */}
             <div className='bg-gray-100 pt-28 md:pl-10 px-4 flex flex-col'>
                 <h1 className='text-6xl md:text-7xl mb-2'>Want to talk to us ?</h1>

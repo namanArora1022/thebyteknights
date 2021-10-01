@@ -16,7 +16,7 @@ import { links } from '../data/footer';
 
 const Footer = () => {
     return (
-        <footer className="w-full bg-gray-900 text-white py-9 px-9" id="footer">
+        <footer className="w-full bg-gray-900 text-white py-9 md:px-9 px-3" id="footer">
             {/* upper */}
             <div className='flex md:justify-between flex-col md:flex-row'>
                 {/* about */}
@@ -72,7 +72,7 @@ const Footer = () => {
             </div>
             {/* lower */}
             <div className='flex justify-between items-center pt-4 flex-col md:flex-row'>
-                <h4 className='flex items-center text-sm mb-3 md:mb-0'>
+                <h4 className='flex items-center text-sm mb-3 md:mb-0 text-center md:text-left'>
                     <AiOutlineCopyrightCircle /> &nbsp;{new Date().getFullYear() + ' '}
                     The Byte Knights Club of Mira Model School
                 </h4>

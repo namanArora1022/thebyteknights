@@ -8,7 +8,7 @@ import { activeEvents } from '../data/events';
 
 const Events = () => {
     return (
-        <div className="pt-20 px-4 md:px-10 pb-36">
+        <div className="pt-20 px-4 md:px-10">
             <main className='py-8 flex flex-col justify-center items-center'>
                 <h1 className='text-4xl Pink-border'>&lt;Events/&gt;</h1>
                 {/* Events */}
