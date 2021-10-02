@@ -22,7 +22,7 @@ const Footer = () => {
                 {/* about */}
                 <div className='mb-6 md:w-2/5'>
                     <h3 className='text-xl Pink-border inline-block'>About us</h3>
-                    <p className='text-xs mt-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos obcaecati est voluptatem pariatur culpa odit vitae veniam eveniet beatae architecto! Porro dolore qui quis atque dolor, cum perspiciatis dicta eum.</p>
+                    <p className='text-xs mt-3'>The byte knight club which is known for their wonderful and attractive event which attracts students to participate in different cocerculum activities which provides fun, creation,of new ideas and thought.</p>
                     <ul className='flex items-center mt-3'>
                         {links.map(link => (
                             <a href={link.link} target="_blank" rel="noreferrer" key={link.id}>
