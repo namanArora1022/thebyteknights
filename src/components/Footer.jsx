@@ -25,11 +25,12 @@ const Footer = () => {
                     <p className='text-xs mt-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos obcaecati est voluptatem pariatur culpa odit vitae veniam eveniet beatae architecto! Porro dolore qui quis atque dolor, cum perspiciatis dicta eum.</p>
                     <ul className='flex items-center mt-3'>
                         {links.map(link => (
-                            <li key={link.id} className='m-2 p-2 rounded-lg transform hover:bg-Pink hover:-translate-y-3 transition-all duration-300'>
-                                <a href={link.link} target="_blank" rel="noreferrer">
+                            <a href={link.link} target="_blank" rel="noreferrer">
+                                <li key={link.id} className='m-2 p-2 rounded-lg transform hover:bg-Pink hover:-translate-y-3 transition-all duration-300'>
                                     <link.icon className='h-6 w-6' />
-                                </a>
-                            </li>))}
+                                </li>
+                            </a>
+                        ))}
                     </ul>
                 </div>
                 {/* quick links */}
@@ -40,7 +41,7 @@ const Footer = () => {
                             <a href="https://www.facebook.com/profile.php?id=100069116769192" target="_blank" rel="noreferrer">Facebook</a>
                         </li>
                         <li className='text-sm my-1'>
-                            <a href="https://www.instagram.com/thebyteknights/" target="_blank" rel="noreferrer">Instagram</a>
+                            <a href="https://www.instagram.com/thebyteknightsmms/" target="_blank" rel="noreferrer">Instagram</a>
                         </li>
                         <li className='text-sm my-1'>
                             <a href="https://www.youtube.com/channel/UCqDxCutv0nzcx0uZrFM76lA" target="_blank" rel="noreferrer">Youtube</a>
