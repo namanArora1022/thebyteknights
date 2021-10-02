@@ -24,7 +24,7 @@ const Events = () => {
                         ))
                     }
                     {activeEvents.length === 0 &&
-                        <h4>No upcomming events , right now 😔</h4>
+                        <h4 className='h-28'>No upcomming events , right now 😔</h4>
                     }
                 </div>
             </main>
