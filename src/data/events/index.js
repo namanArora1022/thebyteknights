@@ -1,7 +1,4 @@
-
 // ! Event Template
-
-
 
 /*
 import Made_To_Mingle from '../../assets/events/Made To Mingle.jpg';

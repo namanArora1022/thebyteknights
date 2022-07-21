@@ -1,10 +1,10 @@
-import React from 'react';
-import Particles from 'react-tsparticles';
+import React from "react";
+import Particles from "react-tsparticles";
 
 const P = () => {
     return (
         <Particles
-            className='absolute h-screen'
+            className="absolute h-screen"
             id="tsparticles"
             options={{
                 fpsLimit: 60,
@@ -13,43 +13,43 @@ const P = () => {
                     events: {
                         onClick: {
                             enable: true,
-                            mode: "push",
+                            mode: "push"
                         },
                         onHover: {
                             enable: true,
-                            mode: "repulse",
+                            mode: "repulse"
                         },
-                        resize: true,
+                        resize: true
                     },
                     modes: {
                         bubble: {
                             distance: 400,
                             duration: 2,
                             opacity: 0.8,
-                            size: 40,
+                            size: 40
                         },
                         push: {
-                            quantity: 4,
+                            quantity: 4
                         },
                         repulse: {
                             distance: 200,
-                            duration: 0.4,
-                        },
-                    },
+                            duration: 0.4
+                        }
+                    }
                 },
                 particles: {
                     color: {
-                        value: "#ffffff",
+                        value: "#ffffff"
                     },
                     links: {
                         color: "#ffffff",
                         distance: 150,
                         enable: true,
                         opacity: 0.5,
-                        width: 1,
+                        width: 1
                     },
                     collisions: {
-                        enable: true,
+                        enable: true
                     },
                     move: {
                         direction: "none",
@@ -57,30 +57,30 @@ const P = () => {
                         outMode: "bounce",
                         random: false,
                         speed: 6,
-                        straight: false,
+                        straight: false
                     },
                     number: {
                         density: {
                             enable: true,
-                            value_area: 800,
+                            value_area: 800
                         },
-                        value: 80,
+                        value: 80
                     },
                     opacity: {
-                        value: 0.5,
+                        value: 0.5
                     },
                     shape: {
-                        type: "circle",
+                        type: "circle"
                     },
                     size: {
                         random: true,
-                        value: 5,
-                    },
+                        value: 5
+                    }
                 },
-                detectRetina: true,
+                detectRetina: true
             }}
         />
-    )
-}
+    );
+};
 
 export default P;

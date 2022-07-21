@@ -1,23 +1,23 @@
-import React, { useEffect, useState } from 'react';
-import client from '../lib/client';
+import React, { useEffect, useState } from "react";
+import client from "../lib/client";
 
 // Data
-import { features, testimonials } from '../data/home';
+import { features, testimonials } from "../data/home";
 
 // Components
-import Feature from '../components/Home/Feature';
-import Testimonial from '../components/Home/Testimonial';
-import Particles from '../components/Home/Particles';
+import Feature from "../components/Home/Feature";
+import Testimonial from "../components/Home/Testimonial";
+import Particles from "../components/Home/Particles";
 
 // Animations
-import { Bounce } from 'react-awesome-reveal';
+import { Bounce } from "react-awesome-reveal";
 
 const Home = () => {
-    const [lines, setLines] = useState({ firstLine: '', secondLine: '' });
+    const [lines, setLines] = useState({ firstLine: "", secondLine: "" });
 
     useEffect(() => {
         const query = '*[_type == "home"]';
-        client.fetch(query).then(data => {
+        client.fetch(query).then((data) => {
             setLines({
                 firstLine: data[0].firstLine,
                 secondLine: data[0].secondLine
@@ -45,7 +45,7 @@ const Home = () => {
                     </h2>
                 </Bounce>
                 <div className="flex flex-wrap justify-center items-center">
-                    {features.map(feature => (
+                    {features.map((feature) => (
                         <Feature feature={feature} key={feature.id} />
                     ))}
                 </div>
@@ -58,7 +58,7 @@ const Home = () => {
                     </h2>
                 </Bounce>
                 <div className="flex flex-wrap justify-center items-center">
-                    {testimonials.map(testimonial => (
+                    {testimonials.map((testimonial) => (
                         <Testimonial
                             testimonial={testimonial}
                             key={testimonial.id}

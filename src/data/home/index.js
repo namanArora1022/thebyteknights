@@ -1,59 +1,62 @@
-import Coding from '../../assets/home/features/work.svg';
-import Video from '../../assets/home/features/video.svg';
-import Photo from '../../assets/home/features/photo.svg';
-import Quiz from '../../assets/home/features/quiz.svg';
-import Design from '../../assets/home/features/design.svg';
+import Coding from "../../assets/home/features/work.svg";
+import Video from "../../assets/home/features/video.svg";
+import Photo from "../../assets/home/features/photo.svg";
+import Quiz from "../../assets/home/features/quiz.svg";
+import Design from "../../assets/home/features/design.svg";
 
 export const features = [
     {
         id: 1,
-        name: 'Coding',
+        name: "Coding",
         img: Coding,
-        description: 'We have a keen intrest in coding , software development , websites and apps in general'
+        description:
+            "We have a keen intrest in coding , software development , websites and apps in general"
     },
     {
         id: 2,
-        name: 'Video Editing',
+        name: "Video Editing",
         img: Video,
         description: `Video Editing is a demand of today's modern world ,we can alter and devlop amazing videos use video editing softwares`
     },
     {
         id: 3,
-        name: 'Photography',
+        name: "Photography",
         img: Photo,
         description: `It is the story we failed to put into words.In Photography there is a reality so subtle that it becomes more real than reality.`
     },
     {
         id: 4,
-        name: 'Quizzes',
+        name: "Quizzes",
         img: Quiz,
-        description: 'We conduct various quizzes based on knowledge of computer applications, which develops a keen interest among students'
+        description:
+            "We conduct various quizzes based on knowledge of computer applications, which develops a keen interest among students"
     },
     {
         id: 5,
-        name: 'Graphic Designing',
+        name: "Graphic Designing",
         img: Design,
-        description: 'Graphic Designing helps students to use their creative minds to devlop the various user interfaces and user experiences(UI/UX)'
-    },
+        description:
+            "Graphic Designing helps students to use their creative minds to devlop the various user interfaces and user experiences(UI/UX)"
+    }
 ];
 
 export const testimonials = [
     {
         id: 1,
-        text: 'I, Himanshi Miglani, a student of grade 11-D had participated in the Social Debate organized by the Byte Knights Club. I spoke against the ban of social media. This competition taught me team work skills and helped me imrove my speaking skills. In all, it was a good experience.',
-        name: 'Himanshi Miglani',
-        standard: '11-D'
+        text: "I, Himanshi Miglani, a student of grade 11-D had participated in the Social Debate organized by the Byte Knights Club. I spoke against the ban of social media. This competition taught me team work skills and helped me imrove my speaking skills. In all, it was a good experience.",
+        name: "Himanshi Miglani",
+        standard: "11-D"
     },
     {
         id: 2,
-        text: 'I, Lakshya Sharma, a student of grade 11-C had participated in the Social Debate organized by the Byte Knights Club. I spoke against the ban of social media. This competition helped me imrove my speaking skills and helped me increase my confidence in public speaking. In all, it was a good experience.',
-        name: 'Lakshya Sharma',
-        standard: '11-C'
+        text: "I, Lakshya Sharma, a student of grade 11-C had participated in the Social Debate organized by the Byte Knights Club. I spoke against the ban of social media. This competition helped me imrove my speaking skills and helped me increase my confidence in public speaking. In all, it was a good experience.",
+        name: "Lakshya Sharma",
+        standard: "11-C"
     },
     {
         id: 3,
         text: 'Hello!‌Rohan Raj from class XI-D this side. I recently participated in a social debate organised by Byte knights club and spoke against the the topic of "social media ban". The competition over-all was enjoyable, memorable and also taught me alot new things regarding teamwork. Moreover, it was a great experience for me.',
-        name: '‌Rohan Raj',
-        standard: '11-D'
+        name: "‌Rohan Raj",
+        standard: "11-D"
     }
-]
+];
