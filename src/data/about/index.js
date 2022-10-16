@@ -10,7 +10,7 @@ import ActivityCooridinator_2 from '../../assets/members/Activity Cooridinator 2
 export const members = [
     {
         id: 1,
-        name: 'Kashvi Arora',
+        name: 'Kashvi l',
         post: 'President',
         img: Vice_President
     },
