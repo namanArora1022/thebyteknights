@@ -35,6 +35,6 @@ export const links = [
 		id: 6,
 		icon:  SiDiscord,
 		text: 'Discord',
-		link: 'https://www.reddit.com/r/byteknights/?utm_medium=android_app&utm_source=share'
+		link: 'https://discord.gg/jZ8XDMMM'
 	},
 ]
