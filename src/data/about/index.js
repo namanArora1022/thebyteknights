@@ -12,7 +12,7 @@ import Ex_4 from '../../assets/members/ch.jpeg';
 import vp from '../../assets/members/vp.jpeg';
 import mb from '../../assets/members/mb.jpeg';
 import vb from '../../assets/members/vp.jpeg';
-import thea from '../../assets/members/thea.jpeg';
+import thea from '../../assets/members/Thea.jpeg';
 import kv from '../../assets/members/kv.jpeg';
 import sb from '../../assets/members/sb.jpeg';
 import ex from '../../assets/members/ex.jpeg';
