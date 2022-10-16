@@ -19,6 +19,7 @@ export const members = [
         post: 'President',
         img: Vice_President
     },
+    
     {
         id: 2,
         name: 'Shubham Katoch',
