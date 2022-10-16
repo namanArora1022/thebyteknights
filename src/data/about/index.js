@@ -9,6 +9,8 @@ import vb from '../../assets/members/vp.jpeg';
 import thea from '../../assets/members/Thea.jpeg';
 import sb from '../../assets/members/sb.jpeg';
 import ex from '../../assets/members/ex.jpeg';
+import kv from '../../assets/members/kv.jpeg';
+import pv from '../../assets/members/pv.jpeg';
 export const members = [
     {
         id: 1,
