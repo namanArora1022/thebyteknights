@@ -1,6 +1,7 @@
 import President from '../../assets/members/President.jpeg';
 import Vice_President from '../../assets/members/Vice President.jpeg';
 import Secretary from '../../assets/members/Secretary.jpeg';
+import Sec from '../../assets/members/Newsec.jpeg';
 import Innovative_Head from '../../assets/members/Innovative Head.jpeg';
 import Activity_Incharge from '../../assets/members/Activity Incharge.jpeg';
 import ActivityCooridinator_1 from '../../assets/members/Activity Cooridinator 1.jpeg';
@@ -23,13 +24,13 @@ export const members = [
         id: 3,
         name: 'Khushi Piplani',
         post: 'Vice President',
-        img:
+        img: 
     },
     {
         id: 4,
         name: 'Ekagra Singh',
         post: 'Secretary',
-        img: 
+        img: Sec
     },
         {
         id: 5,
