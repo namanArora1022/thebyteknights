@@ -41,57 +41,79 @@ export const members = [
         post: 'Assistant Secretary',
         img: sb
     },
-    {
+     },
+        {
         id: 6,
+        name: 'Uttkarsh Miglani',
+        post: 'Club-Mentor',
+        img: ('')
+    },
+     },
+        {
+        id: 7,
+        name: 'Kanishq Verma',
+        post: 'Club-Mentor',
+        img: ('')
+    },
+     },
+        {
+        id: 8,
+        name: 'Nirvaan Katyal',
+        post: 'Club Mentor',
+        img: ('')
+    },
+    
+    {
+        id: 9,
         name: 'Shaurya Gupta',
         post: 'Innovation Head',
         img: ('')
         },
    
     {
-        id: 7,
+        id: 10,
         name: 'Thea Girotra',
         post: 'Activity Cooridinator',
         img: thea
     },
     {
-        id: 8,
+        id: 11,
         name: 'Vansh Bhardwaj',
         post: 'Activity Cooridinator',
         img: vb
     },
      {
-        id: 9,
+        id: 12,
         name: 'Ojas Harish',
         post: 'Executive Member',
         img: Ex_3
     },
      {
-        id: 10,
+        id: 13,
         name: 'Pratishtha Vohra',
         post: 'Executive Member',
         img: ('')
     },
      {
-        id: 11,
+        id: 14,
         name: 'Manik Bakshi',
         post: 'Executive Member',
         img: mb
     },
      {
-        id: 12,
+        id: 15,
         name: 'Aayush Sharma',
         post: 'Executive Member',
         img: ex
     },
      {
-        id: 13,
+        id: 16,
         name: 'Prarthna Punpher',
         post: 'Executive Member',
         img: Ex_2
     },
      {
-        id: 14,
+        id: 17,
         name: 'Chaitanya Palta',
         post: 'Innovative Head',
         img: Ex_4
