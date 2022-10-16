@@ -9,44 +9,86 @@ import ActivityCooridinator_2 from '../../assets/members/Activity Cooridinator 2
 export const members = [
     {
         id: 1,
-        name: 'Naman Arora',
-        post: 'President',
-        img: President
-    },
-    {
-        id: 2,
         name: 'Kashvi Arora',
-        post: 'Vice President',
+        post: 'President',
         img: Vice_President
     },
     {
+        id: 2,
+        name: 'Shubham Katoch',
+        post: 'Vice President',
+        img:
+    },
+        {
         id: 3,
-        name: 'Nirvaan Katyal',
-        post: 'Secretary',
-        img: Secretary
+        name: 'Khushi Piplani',
+        post: 'Vice President',
+        img:
     },
     {
         id: 4,
-        name: 'Utkarsh Miglani',
-        post: 'Innovative Head',
-        img: Innovative_Head
+        name: 'Ekagra Singh',
+        post: 'Secretary',
+        img: 
     },
-    {
+        {
         id: 5,
-        name: 'Yash Chimnani',
-        post: 'Activity Incharge',
-        img: Activity_Incharge
+        name: 'Shashank Bansal',
+        post: 'Assistant Secretary',
+        img: 
     },
     {
         id: 6,
-        name: 'Satyam',
+        name: 'Shaurya Gupta',
+        post: 'Innovation Head',
+        img: Innovative_Head
+   
+    {
+        id: 7,
+        name: 'Thea Girotra',
         post: 'Activity Cooridinator',
         img: ActivityCooridinator_1
     },
     {
-        id: 7,
-        name: 'Yashasvi',
+        id: 8,
+        name: 'Vansh Bhardwaj',
         post: 'Activity Cooridinator',
+        img: ActivityCooridinator_2
+    },
+     {
+        id: 9,
+        name: 'Ojas Harish',
+        post: 'Executive Member',
+        img: ActivityCooridinator_2
+    },
+     {
+        id: 10,
+        name: 'Pratishtha Vohra',
+        post: 'Executive Member',
+        img: ActivityCooridinator_2
+    },
+     {
+        id: 11,
+        name: 'Manik Bakshi',
+        post: 'Executive Member',
+        img: ActivityCooridinator_2
+    },
+     {
+        id: 12,
+        name: 'Aayush Sharma',
+        post: 'Executive Member',
+        img: ActivityCooridinator_2
+    },
+     {
+        id: 13,
+        name: 'Prarthna Punpher',
+        post: 'Executive Member',
+        img: ActivityCooridinator_2
+    },
+     {
+        id: 14,
+        name: 'Chaitanya Palta',
+        post: 'Innovative Head',
         img: ActivityCooridinator_2
     },
 ]
