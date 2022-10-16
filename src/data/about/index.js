@@ -11,7 +11,7 @@ import sb from '../../assets/members/sb.jpeg';
 import ex from '../../assets/members/ex.jpeg';
 import kv from '../../assets/members/kv.jpeg';
 import pv from '../../assets/members/pv.jpeg';
-import ut from '../../assets/members/Innovative Head.jpeg.jpeg';
+import ut from '../../assets/members/Innovative Head.jpeg';
 export const members = [
     {
         id: 1,
