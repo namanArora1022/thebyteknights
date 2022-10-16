@@ -1,11 +1,5 @@
-import President from '../../assets/members/President.jpeg';
 import Vice_President from '../../assets/members/Vice President.jpeg';
-import Secretary from '../../assets/members/Secretary.jpeg';
 import Sec from '../../assets/members/Newsec.png';
-import Innovative_Head from '../../assets/members/Innovative Head.jpeg';
-import Activity_Incharge from '../../assets/members/Activity Incharge.jpeg';
-import ActivityCooridinator_1 from '../../assets/members/Activity Cooridinator 1.jpeg';
-import ActivityCooridinator_2 from '../../assets/members/Activity Cooridinator 2.jpeg';
 import Ex_2 from '../../assets/members/pra.jpeg';
 import Ex_3 from '../../assets/members/oj.jpeg';
 import Ex_4 from '../../assets/members/ch.jpeg';
@@ -13,7 +7,6 @@ import vp from '../../assets/members/vp.jpeg';
 import mb from '../../assets/members/mb.jpeg';
 import vb from '../../assets/members/vp.jpeg';
 import thea from '../../assets/members/Thea.jpeg';
-import kv from '../../assets/members/kv.jpeg';
 import sb from '../../assets/members/sb.jpeg';
 import ex from '../../assets/members/ex.jpeg';
 export const members = [
