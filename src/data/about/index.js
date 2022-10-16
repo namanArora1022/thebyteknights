@@ -10,8 +10,12 @@ import Ex_2 from '../../assets/members/pra.jpeg';
 import Ex_3 from '../../assets/members/oj 2.jpeg';
 import Ex_4 from '../../assets/members/ch.jpeg';
 import vp from '../../assets/members/vp.jpeg';
-
-
+import mb from '../../assets/members/mb.jpeg';
+import vb from '../../assets/members/vp.jpeg';
+import thea from '../../assets/members/thea.jpeg';
+import kv from '../../assets/members/kv.jpeg';
+import sb from '../../assets/members/sb.jpeg';
+import ex from '../../assets/members/ex.jpeg';
 export const members = [
     {
         id: 1,
@@ -24,7 +28,7 @@ export const members = [
         id: 2,
         name: 'Shubham Katoch',
         post: 'Vice President',
-        img:
+        img:('')
     },
         {
         id: 3,
@@ -42,7 +46,7 @@ export const members = [
         id: 5,
         name: 'Shashank Bansal',
         post: 'Assistant Secretary',
-        img: 
+        img: sb
     },
     {
         id: 6,
@@ -55,13 +59,13 @@ export const members = [
         id: 7,
         name: 'Thea Girotra',
         post: 'Activity Cooridinator',
-        img: ActivityCooridinator_1
+        img: thea
     },
     {
         id: 8,
         name: 'Vansh Bhardwaj',
         post: 'Activity Cooridinator',
-        img: ActivityCooridinator_2
+        img: vb
     },
      {
         id: 9,
@@ -73,25 +77,25 @@ export const members = [
         id: 10,
         name: 'Pratishtha Vohra',
         post: 'Executive Member',
-        img: Ex_2
+        img: ('')
     },
      {
         id: 11,
         name: 'Manik Bakshi',
         post: 'Executive Member',
-        img: ActivityCooridinator_2
+        img: mb
     },
      {
         id: 12,
         name: 'Aayush Sharma',
         post: 'Executive Member',
-        img: ActivityCooridinator_2
+        img: ex
     },
      {
         id: 13,
         name: 'Prarthna Punpher',
         post: 'Executive Member',
-        img: ActivityCooridinator_2
+        img: Ex_2
     },
      {
         id: 14,
