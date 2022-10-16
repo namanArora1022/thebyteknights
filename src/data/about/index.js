@@ -7,7 +7,7 @@ import Activity_Incharge from '../../assets/members/Activity Incharge.jpeg';
 import ActivityCooridinator_1 from '../../assets/members/Activity Cooridinator 1.jpeg';
 import ActivityCooridinator_2 from '../../assets/members/Activity Cooridinator 2.jpeg';
 import Ex_2 from '../../assets/members/pra.jpeg';
-import Ex_3 from '../../assets/members/oj 2.jpeg';
+import Ex_3 from '../../assets/members/oj .jpeg';
 import Ex_4 from '../../assets/members/ch.jpeg';
 import vp from '../../assets/members/vp.jpeg';
 import mb from '../../assets/members/mb.jpeg';
