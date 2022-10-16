@@ -55,7 +55,7 @@ export const members = [
         id: 7,
         name: 'Kanishq Verma',
         post: 'Club-Mentor',
-        img: ('')
+        img: kv
     
      },
         {
@@ -94,7 +94,7 @@ export const members = [
         id: 13,
         name: 'Pratishtha Vohra',
         post: 'Executive Member',
-        img: ('')
+        img: pv
     },
      {
         id: 14,
