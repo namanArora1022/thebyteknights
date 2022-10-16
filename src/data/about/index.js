@@ -26,7 +26,7 @@ export const members = [
         {
         id: 3,
         name: 'Khushi Piplani',
-        post: 'Vice President 1',
+        post: 'Vice President ',
         img: vp
     },
     {
