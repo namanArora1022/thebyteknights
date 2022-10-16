@@ -36,6 +36,10 @@ export const features = [
         description: 'Graphic Designing helps students to use their creative minds to devlop the various user interfaces and user experiences(UI/UX)'
     },
 ];
+export const about us = [
+
+      <iframe src="https://drive.google.com/file/d/1u46jU37LC3h7IDRfEsAkrEb6L5MMkdFc/preview" width="350" height="480" allow="autoplay"></iframe>
+    ]
 
 export const testimonials = [
     {
