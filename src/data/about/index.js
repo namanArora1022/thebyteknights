@@ -45,7 +45,7 @@ export const members = [
         id: 6,
         name: 'Shaurya Gupta',
         post: 'Innovation Head',
-        img: Innovative_Head
+        img: ('')
         },
    
     {
