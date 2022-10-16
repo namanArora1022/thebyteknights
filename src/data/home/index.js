@@ -54,6 +54,6 @@ export const testimonials = [
         id: 3,
         text: 'Hello!‌Rohan Raj from class XI-D this side. I recently participated in a social debate organised by Byte knights club and spoke against the the topic of "social media ban". The competition over-all was enjoyable, memorable and also taught me alot new things regarding teamwork. Moreover, it was a great experience for me.',
         name: '‌Rohan Raj',
-        standard: '12-D'
+        standard: '11-D'
     }
 ]
