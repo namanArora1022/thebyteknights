@@ -43,6 +43,7 @@ export const members = [
         name: 'Shaurya Gupta',
         post: 'Innovation Head',
         img: Innovative_Head
+        },
    
     {
         id: 7,
