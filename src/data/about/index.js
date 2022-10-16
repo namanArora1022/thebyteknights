@@ -123,6 +123,6 @@ export const years = [
         id: 5,
         year: '2021-22',
         President: 'Naman Arora',
-        Vice_President: 'Kashvi Arora',
+        Vice_President: 'Kashvi ',
     }
 ]
