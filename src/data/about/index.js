@@ -41,20 +41,20 @@ export const members = [
         post: 'Assistant Secretary',
         img: sb
     },
-     },
+     
         {
         id: 6,
         name: 'Uttkarsh Miglani',
         post: 'Club-Mentor',
         img: ('')
     },
-     },
+     
         {
         id: 7,
         name: 'Kanishq Verma',
         post: 'Club-Mentor',
         img: ('')
-    },
+    
      },
         {
         id: 8,
