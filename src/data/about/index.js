@@ -49,7 +49,7 @@ export const members = [
         id: 6,
         name: 'Uttkarsh Miglani',
         post: 'Club-Mentor',
-        img: ('')
+        img: ut
     },
      
         {
