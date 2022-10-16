@@ -1,5 +1,5 @@
 import Vice_President from '../../assets/members/Vice President.jpeg';
-import Sec from '../../assets/members/Newsec.jpeg';
+import Sec from '../../assets/members/Newsec.png';
 import Ex_2 from '../../assets/members/pra.jpeg';
 import Ex_3 from '../../assets/members/oj.jpeg';
 import Ex_4 from '../../assets/members/ch.jpeg';
