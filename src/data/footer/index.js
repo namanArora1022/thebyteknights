@@ -1,4 +1,4 @@
-import { FaFacebook , SiInstagram , FaYoutube , SiGithub,FaReddit } from 'react-icons/all';
+import { FaFacebook , SiInstagram , FaYoutube , SiGithub,FaReddit,SiDiscord } from 'react-icons/all';
 
 export const links = [
 	{
@@ -29,6 +29,12 @@ export const links = [
 		id: 5,
 		icon:  FaReddit,
 		text: 'Reddit',
+		link: 'https://www.reddit.com/r/byteknights/?utm_medium=android_app&utm_source=share'
+	},
+	{
+		id: 6,
+		icon:  SiDiscord,
+		text: 'Discord',
 		link: 'https://www.reddit.com/r/byteknights/?utm_medium=android_app&utm_source=share'
 	},
 ]
