@@ -1,4 +1,5 @@
-import Vice_President from '../../assets/members/Vice President.jpeg';
+import ka from '../../assets/members/ka.jpeg';
+import pv from '../../assets/members/pv.jpeg';
 import Sec from '../../assets/members/Newsec.png';
 import Ex_2 from '../../assets/members/pra.jpeg';
 import Ex_3 from '../../assets/members/oj.jpeg';
@@ -21,7 +22,7 @@ export const members = [
         id: 1,
         name: 'Kashvi Arora',
         post: 'President',
-        img: Vice_President
+        img: ka
     },
     
     {
