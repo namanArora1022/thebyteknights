@@ -35,6 +35,6 @@ export const links = [
 		id: 6,
 		icon:  SiDiscord,
 		text: 'Discord',
-		link: 'https://discord.gg/jZ8XDMMM'
+		link: 'https://discord.gg/v2r5fDaN'
 	},
 ]
