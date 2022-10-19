@@ -5,13 +5,15 @@ import Ex_3 from '../../assets/members/oj.jpeg';
 import Ex_4 from '../../assets/members/ch.jpeg';
 import vp from '../../assets/members/vp.jpeg';
 import mb from '../../assets/members/mb.jpeg';
-import vb from '../../assets/members/vp.jpeg';
+import vb from '../../assets/members/vb.jpeg';
 import thea from '../../assets/members/Thea.jpeg';
 import sb from '../../assets/members/sb.jpeg';
 import ex from '../../assets/members/ex.jpeg';
 import kv from '../../assets/members/kv.jpeg';
 import pv from '../../assets/members/pv.jpeg';
 import ut from '../../assets/members/Innovative Head.jpeg';
+import vp from '../../assets/members/vp.jpeg';
+
 export const members = [
     {
         id: 1,
