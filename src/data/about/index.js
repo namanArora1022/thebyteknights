@@ -12,6 +12,8 @@ import ex from '../../assets/members/ex.jpeg';
 import kv from '../../assets/members/kv.jpeg';
 import pv from '../../assets/members/pv.jpeg';
 import ut from '../../assets/members/Innovative Head.jpeg';
+import sg from '../../assets/members/sg.jpeg';
+import nk from '../../assets/members/nk.jpeg';
 
 
 export const members = [
@@ -65,14 +67,14 @@ export const members = [
         id: 8,
         name: 'Nirvaan Katyal',
         post: 'Club Mentor',
-        img: ('')
+        img: nk
     },
     
     {
         id: 9,
         name: 'Shaurya Gupta',
         post: 'Innovation Head',
-        img: ('')
+        img: sg
         },
    
     {
