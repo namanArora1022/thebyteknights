@@ -37,15 +37,7 @@ export const features = [
     },
 ]
 
-<section id="constitution" class="portfolio">
-              <div class="section-title">
-          <h2>Our Constitution</h2>
-    
 
-        <div class="container">
-      <iframe src="https://drive.google.com/file/d/1u46jU37LC3h7IDRfEsAkrEb6L5MMkdFc/preview" width="350" height="480" allow="autoplay"></iframe>
-</div>
-    </section>
     
 
 
