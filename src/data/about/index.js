@@ -12,7 +12,7 @@ import ex from '../../assets/members/ex.jpeg';
 import kv from '../../assets/members/kv.jpeg';
 import pv from '../../assets/members/pv.jpeg';
 import ut from '../../assets/members/Innovative Head.jpeg';
-import vp from '../../assets/members/vp.jpeg';
+
 
 export const members = [
     {
