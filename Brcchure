@@ -1,0 +1,7 @@
+BufferedImage img = null;
+try {
+    img = ImageIO.read(new File("strawberry.jpg"));
+    let text = "Free Web Building Tutorials!";
+    let result = text.link("https://www.w3schools.com");
+} catch (IOException e) {
+}
