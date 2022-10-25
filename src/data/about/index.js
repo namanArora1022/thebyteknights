@@ -14,7 +14,7 @@ import pv from '../../assets/members/pv.jpeg';
 import ut from '../../assets/members/Innovative Head.jpeg';
 import sg from '../../assets/members/sg.jpeg';
 import nk from '../../assets/members/nk.jpeg';
-
+import sk from '../../assets/members/sk.jpeg';
 
 export const members = [
     {
@@ -28,7 +28,7 @@ export const members = [
         id: 2,
         name: 'Shubham Katoch',
         post: 'Vice President',
-        img:('')
+        img: sk
     },
         {
         id: 3,
